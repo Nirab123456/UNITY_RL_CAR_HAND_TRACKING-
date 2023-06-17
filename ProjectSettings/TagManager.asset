@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Obs
+  - Crash
+  - Wall
+  - Reward
+  - Plane
+  - Road
+  - Moving_Plane
+  - Prometheus_5000
+  - Prometheus_6000
+  - Prometheus_7000
+  - Prometheus_8000
+  - Prometheus_9000
+  - Car5000
+  - Car6000
+  - Car7000
+  - Car8000
+  - Car9000
+  - 'obstacle '
+  - CAR
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Agent
+  - Track
+  - Pointer
+  - Not_In_Minimap
+  - Minimap_Layer
+  - Car
+  - Raycast_ignore
+  - obstacle_
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,29 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:/RL_UNITY/full_car_envs/my_experiment_1/Assets/subAssets/Python/Hand_sign_controll/data  # dataset root dir
+train: D:/RL_UNITY/full_car_envs/my_experiment_1/Assets/subAssets/Python/Hand_sign_controll/data/images  # train images (relative to 'path') 128 images
+val: D:/RL_UNITY/full_car_envs/my_experiment_1/Assets/subAssets/Python/Hand_sign_controll/data/images  # val images (relative to 'path') 128 images
+test: D:/RL_UNITY/full_car_envs/my_experiment_1/Assets/subAssets/Python/Hand_sign_controll/data/images_test  # test images (relative to 'path')
+
+# Classes (21 COCO classes)
+names:
+  0: dog
+  1: person
+  2: cat
+  3: tv
+  4: car
+  5: meatballs
+  6: marinara sauce
+  7: tomato soup
+  8: chicken noodle soup
+  9: french onion soup
+  10: chicken breast
+  11: ribs
+  12: pulled pork
+  13: hamburger
+  14: cavity
+  15: goforward
+  16: stop
+  17: goforward_turnleft
+  18: w
+  19: ww
+  20: goforward_turnright

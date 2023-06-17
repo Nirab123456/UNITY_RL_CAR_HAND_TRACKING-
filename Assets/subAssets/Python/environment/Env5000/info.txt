@@ -1,0 +1,11 @@
+Iteration 1:
+episode_reward: 0.8
+episode_length: 0
+current_observation: [ 2.4456799e+03 -2.0668184e+01 -4.6760517e-01]
+action_taken: 6
+obstacle_visible: False
+goal_reached: True
+car_collision_detected: False
+Real_reward: 1.8
+modified_reward: -1.0
+
