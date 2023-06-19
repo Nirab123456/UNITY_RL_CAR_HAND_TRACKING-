@@ -39,7 +39,7 @@ public class Middle_tip : MonoBehaviour
         [JsonRpcMethod]
         public void SetPosition_middle_tip(float x, float y, float z)
         {
-            middle_tip.SetPosition_middle_tip(x, y, z);
+            middle_tip.SetPosition_middle_tip(x, y,z);
         }
     }    
 }

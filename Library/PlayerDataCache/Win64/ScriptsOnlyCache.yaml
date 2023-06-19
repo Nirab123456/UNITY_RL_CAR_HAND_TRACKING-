@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - Navmesh_track_follow_7000
     - Navmesh_track_follow_8000
     - Navmesh_track_follow_9000
+    - PillarMovement
     - PrometeoCarController
     - Prometheus5000
     - Prometheus6000
@@ -40,6 +41,8 @@ ScriptsOnlyBuild:
     - Unity.AI.Navigation.Editor.NavigationWindow
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
+    Unity.PlasticSCM.Editor.dll:
+    - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TerrainTools.Editor.dll:
@@ -152,53 +155,55 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20172}
     - Class: 114
-      Script: {instanceID: 20336}
+      Script: {instanceID: 20222}
     - Class: 114
-      Script: {instanceID: 20340}
+      Script: {instanceID: 20338}
     - Class: 114
-      Script: {instanceID: 20514}
+      Script: {instanceID: 20342}
     - Class: 114
-      Script: {instanceID: 20532}
+      Script: {instanceID: 20516}
     - Class: 114
-      Script: {instanceID: 20600}
+      Script: {instanceID: 20534}
     - Class: 114
       Script: {instanceID: 20602}
     - Class: 114
-      Script: {instanceID: 20664}
+      Script: {instanceID: 20604}
     - Class: 114
-      Script: {instanceID: 20674}
+      Script: {instanceID: 20666}
     - Class: 114
-      Script: {instanceID: 20954}
+      Script: {instanceID: 20676}
     - Class: 114
-      Script: {instanceID: 21182}
+      Script: {instanceID: 20956}
     - Class: 114
-      Script: {instanceID: 21312}
+      Script: {instanceID: 21184}
     - Class: 114
-      Script: {instanceID: 21690}
+      Script: {instanceID: 21314}
     - Class: 114
-      Script: {instanceID: 21734}
+      Script: {instanceID: 21692}
     - Class: 114
-      Script: {instanceID: 21814}
+      Script: {instanceID: 21736}
     - Class: 114
-      Script: {instanceID: 22172}
+      Script: {instanceID: 21816}
     - Class: 114
-      Script: {instanceID: 22202}
+      Script: {instanceID: 22174}
     - Class: 114
-      Script: {instanceID: 22288}
+      Script: {instanceID: 22204}
     - Class: 114
-      Script: {instanceID: 22336}
+      Script: {instanceID: 22290}
     - Class: 114
-      Script: {instanceID: 22388}
+      Script: {instanceID: 22338}
     - Class: 114
-      Script: {instanceID: 22458}
+      Script: {instanceID: 22390}
     - Class: 114
-      Script: {instanceID: 22758}
+      Script: {instanceID: 22462}
     - Class: 114
-      Script: {instanceID: 22760}
+      Script: {instanceID: 22762}
     - Class: 114
-      Script: {instanceID: 23196}
+      Script: {instanceID: 22764}
     - Class: 114
-      Script: {instanceID: 23210}
+      Script: {instanceID: 23200}
+    - Class: 114
+      Script: {instanceID: 23214}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -850,6 +855,12 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 1cb9373a3cf1703dccba8db8f1371b53
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PillarMovement
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1252,6 +1263,12 @@ ScriptsOnlyBuild:
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 6eee468419de75663f621ed2bd13d1c2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TargetTracker
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1373,4 +1390,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/unity.unity
-  playerPath: D:/RL_UNITY/new_env_car.exe
+  playerPath: D:/RL_UNITY/full_car_envs/new_env_car.exe

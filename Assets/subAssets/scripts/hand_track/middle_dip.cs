@@ -39,7 +39,7 @@ public class Middle_dip : MonoBehaviour
         [JsonRpcMethod]
         public void SetPosition_middle_dip(float x, float y, float z)
         {
-            middle_dip.SetPosition_middle_dip(x, y, z);
+            middle_dip.SetPosition_middle_dip(x, y,z);
         }
     }    
 }

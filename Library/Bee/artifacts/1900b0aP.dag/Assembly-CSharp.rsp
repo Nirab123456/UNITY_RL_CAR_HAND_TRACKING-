@@ -329,6 +329,7 @@
 "Assets/subAssets/scripts/Agent/Agent7000.cs"
 "Assets/subAssets/scripts/Agent/Agent8000.cs"
 "Assets/subAssets/scripts/Agent/Agent9000.cs"
+"Assets/subAssets/scripts/Agent/PillarMovement.cs"
 "Assets/subAssets/scripts/car/Prometheus5000.cs"
 "Assets/subAssets/scripts/car/Prometheus6000.cs"
 "Assets/subAssets/scripts/car/Prometheus7000.cs"
@@ -362,6 +363,7 @@
 "Assets/subAssets/scripts/RayCast/RayCast9000.cs"
 "Assets/subAssets/scripts/RayCastsResults.cs"
 "Assets/subAssets/scripts/Reward.cs"
+"Assets/subAssets/scripts/TargetTracker.cs"
 -langversion:9.0
 
 /deterministic

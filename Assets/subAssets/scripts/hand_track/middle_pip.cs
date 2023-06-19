@@ -39,7 +39,7 @@ public class Middle_pip : MonoBehaviour
         [JsonRpcMethod]
         public void SetPosition_middle_pip(float x, float y, float z)
         {
-            middle_pip.SetPosition_middle_pip(x, y, z);
+            middle_pip.SetPosition_middle_pip(x, y,z);
         }
     }    
 }
